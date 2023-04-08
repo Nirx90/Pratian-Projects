@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+       
+        var N = 4;
+       
+        
+           
+            function transpose(A) {
+                for (i = 0; i < N; i++)
+                    for (j = i + 1; j < N; j++) {
+                        var temp = A[i][j];
+                        A[i][j] = A[j][i];
+                        A[j][i] = temp;
+                    }
+            }
+        
+           
+            
+                var A = [ [ 1, 1, 1, 1 ],
+                        [ 2, 2, 2, 2 ],
+                        [ 3, 3, 3, 3 ],
+                        [ 4, 4, 4, 4 ] ];
+        
+                transpose(A);
+        
+                document.write("Modified matrix is <br/>");
+                for (i = 0; i < N; i++) {
+                    for (j = 0; j < N; j++)
+                        document.write(A[i][j] + " ");
+                    document.write("\<br/>");
+                }
+        
+    
+        
+        </script>
+        
+</body>
+</html>

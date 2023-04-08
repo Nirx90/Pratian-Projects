@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./login.css">
+     <!-- start -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="dashboard.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+     <!-- end  -->
+</head>
+<body>
+<header>
+<nav class="nav" >
+<a href="#" >Sign up</a>
+</nav>
+</header>
+
+<section class="sec1" style="display:flex;flex-wrap: wrap;overflow-x: hidden;width: 100%;">
+
+    <div class="col col1">
+
+        
+        <img width="100%" src="images/cmd.png">
+
+    </div>
+    <div class="col col2" >
+
+        <h2 align="center">Welcome to CMD , You are Logging in <br> as PCP</h2>
+        <form style=" margin-top: 50px;text-align: center;">
+        <input class="inp inp1" placeholder=" Testuser@KKd.com" id="email" ><br>
+        <input class="inp inp2" placeholder="Type your password here" id="pass"><br>
+    </form>
+ <center> <a href="dashboard.html"><button class="btns" type="submit" onclick="auth()">Log in</button></a></center>
+    
+    <div class="relative" align="right">
+        <a href="#" ><i>Login as Doctor</i></a><br><br>
+        <a href="#"  ><i>Login as patient</i></a>
+    </div>
+    </div>
+
+    
+</section>
+<script>
+    function auth(){
+        var a=document.getElementById("email").value;
+        var b=document.getElementById("pass").value;
+        if(a == "chaudharinirav2001@gmail.com" && b== "Nirav123@"){
+            window.location.assign("dashboard.html");
+            alert("Login Successfull");
+        }
+        else{
+            alert("Invalid Information");
+            return;
+        }
+    }
+   </script>
+
+</body>
+</html>

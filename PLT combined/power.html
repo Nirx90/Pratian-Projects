@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+function calcPower() {
+ 
+
+ var b = document.getElementById("pow").value;
+ var e = document.getElementById("exp").value;
+ var res; 
+
+ res = PowerOfNumber(b,e);      
+ document.getElementById("res").innerHTML = res;
+}
+
+function PowerOfNumber(b,e){
+ 
+ var i, pow = 1;
+
+ for(i=0; i<e; i++){
+
+   pow = pow*b;
+ }
+
+ return pow;
+}
+       
+    
+    </script>
+
+<body>
+    <div class="container">
+      <br />
+      <h2>Javascript to find Power of a number without using pow()</h2>
+      <br />
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="input-group mb-4">
+            <input type="number" class="form-control" id="pow" placeholder="Base" min="1">
+            <div class="input-group-prepend">
+              <span class="input-group-text">-</span>
+            </div>
+            <input type="number" class="form-control" id="exp" placeholder="Exponent" min="1">
+            <button type="submit" class="btn btn-primary" onclick="calcPower()">Submit</button>
+          </div>
+          <div>Result: <span id="res"></span>
+            <div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+   
+  </html>
+</body>
+</html>

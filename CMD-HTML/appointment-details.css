@@ -1,0 +1,791 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+p {
+    padding: 0px;
+    margin: 0px; 
+    overflow: hidden;
+}
+
+.mdivB {
+    height: 100vh;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    position: sticky;
+}
+.mdL{
+    height: 100%;
+    width: 200px;
+    background-color: #1a237e;
+    top: 0;
+    position: sticky;
+}
+.mdLT {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.mdLT p {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    align-self: center;
+}
+.mdLT i {
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+.mdLT i:hover{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.147);
+}
+
+/* dashbord style start */
+.menuMdlt a{
+    width: 100%;
+    display: flex;
+    padding:10px 7px;
+    margin-left: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.menuMdlt a i{
+    color: white;
+    display: flex;
+    padding: 0px;
+    margin: 0px 10px;
+    
+}
+.menuMdlt a p{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 15px;
+}
+
+/* click current item style */
+.currentItemClickDash{
+    border-radius: 10px 0 0 10px;
+    background-color: white;
+}
+
+/* click current item style end */
+
+/* dasboard hover effect start */
+.personMdlt:hover {
+    border-radius: 10px 0 0 10px;
+    background-color: rgba(255, 255, 255, 0.147);
+}
+.chatRoomMdlt:hover {
+    border-radius: 10px 0 0 10px;
+    background-color: rgba(255, 255, 255, 0.147);
+}
+.srttingsMdlt:hover {
+    border-radius: 10px 0 0 10px;
+    background-color: rgba(255, 255, 255, 0.147);
+}
+
+/* design for right top div is start  */
+
+.mdR {
+    width: 100%;
+    height: 100vh;
+}
+.mdRT{
+    display: flex;
+    padding: 10px;
+    top: 0;
+    position: sticky;
+    background-color: white;
+    
+}
+.mdRT p{
+    color: #1a237e;
+    font-size: 26px;
+    padding: 0px;
+    margin: 0px;
+    align-self: center;
+    width: 100%;
+}
+.mdRT a {
+    align-self: center;
+    width: 100%;
+    text-decoration: none;
+}
+.mdRT a p{
+    color: #4073ff;
+    font-size: 14px;text-align: center;
+    
+}
+.mdRTR  {
+    align-self: center;
+    width: 100%;
+    justify-content: right;
+    padding: 0px 20px;
+    display: flex;
+}
+.mdRTR i{
+    align-self: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.mdRTR i:hover{
+    background-color: #c8c8c858;
+    border-radius: 50%;
+}
+#addNLAPS {
+    height: 0px;
+    width: 0px;
+}
+.mdRTR select {
+    align-self: center;
+    margin:0px 10px;
+}
+.mdRTR img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 5px;
+    align-self: center;
+}
+.mdRTD{
+    display: flex;
+    background-color: white;
+    margin-left: 20px;
+    align-items: center;
+    padding: 10px;
+    height: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    align-self: center;
+}
+.mdRTD i{
+    color: #1a237e;
+    margin-right: 15px;
+}
+.mdRTDS{
+    outline: none;
+    border: none;
+    padding-right: 20px;
+}
+
+
+/* design for right bottom div start */
+
+.mdRB {
+    box-sizing: content-box;
+    border-radius: 10px;
+    background-color: #efefef;
+    margin: 30px 15px;
+    padding: 30px;
+    text-align: right;
+    
+}
+.dvScro {
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    height: 100vh;
+}
+.clsAPmdRBB{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: rgb(112, 112, 140);
+    border-radius: 5px;
+}
+.clsAPmdRBB:hover{
+    background-color: #1a237e;
+}
+ /* card design */
+ .card{
+    padding:20px 30px;
+    border: 2px solid #e5e5e5;
+    border-radius: 10px;
+    background-color: white;
+ }
+/* patient card */
+.rowMDRBD {
+    display:flex;
+    margin-top: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.patientMDRBD {
+    width: 50%;
+}
+
+.patImaCrd {
+    display: flex;
+    width: 100%;
+}
+.patImaCrd img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.patImaCrd div  {
+    padding: 0px 15px;
+    text-align: left;
+}
+.patImaCrd div p {
+    margin: 0px;
+    padding: 0px;
+    align-self: center;
+}
+.dbCrdB1 {
+    border-right: 2px solid gray;
+    text-align: left;
+    width: 50%;
+    padding-right: 15px;
+}
+.detDiv p {
+    padding: 7px 5px;
+    font-size: 14px;
+    color: rgb(113, 113, 113);
+}
+.detDiv i {
+    color: rgb(113, 113, 113);
+    align-self: center;
+    margin-right: 15px;
+}
+.dbCrdB2 {
+    text-align: left;
+    width: 50%;
+    padding-left: 25px;
+}
+.docDet {
+    text-align: left;
+    width: 50%;
+    padding-left: 25px;
+}
+.docDet p{
+    color: rgb(113, 113, 113);   
+}
+
+.commentCard {
+    width: 100%;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+.commentCard div {
+    display: flex;
+    text-align: left;
+}
+.saveCommCC{
+    border: 2px solid #1a237e;
+    outline: none;
+    padding: 3px 10px;
+    color: #1a237e;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.saveCommCC:hover{
+    background-color: #1a237e;
+    color: white;
+    
+}
+.inpCommCC {
+    height: 35px;
+    width: 100%;
+    margin: 15px 0px;
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(113, 113, 113);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color: rgb(113, 113, 113); 
+    padding: 0px 15px;
+
+}
+.inpCommCC::placeholder{
+    color: #1a227e84;
+}
+
+/* recomendation and vatels */
+
+.recVita {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.recomCC{
+    display: flex;
+    width: 50%;
+}
+.recomItmRV {
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    border: 1.5px solid #b0b0b0;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 5px 15px;
+}
+.recomItmRV p {
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.serDoc {
+    font-size: 13px;
+    color: gray;
+    outline: none;
+    border: 0.5px solid rgb(213, 213, 213);
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+
+/* vatels */
+
+.saveVitalsVC{
+    border: 2px solid #1a237e;
+    outline: none;
+    padding: 3px 10px;
+    color: #1a237e;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.saveVitalsVC:hover{
+    background-color: #1a237e;
+    color: white;
+    
+}
+.allMedCh {
+    display: flex;
+    padding: 20px 0px;
+}
+.allMedCh div{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px;
+}
+.hartRCrdV {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.allChkP {
+    color: rgb(113, 113, 113);
+    margin-bottom:10px;
+    font-size: 13px;
+    
+}
+.bpmCRV {
+    color: rgb(113, 113, 113);
+    font-size: 14px;
+    margin-top: 10px;
+}
+.bpmCRV span {
+    color: #1a237e;
+    border-bottom: 2px solid #1a237e;
+    margin-right: 10px;
+    padding: 0px 5px;
+    
+}
+.allMedChR {
+    display: flex;
+    width: 50%;
+}
+.allMedChL {
+    display: flex;
+    width: 50%;
+}
+
+/* prescription and test code */
+.prepTest {
+    display: flex;
+    margin-top: 30px;
+}
+.prescCC {
+    width: 50%;
+    text-align: left;
+}
+.testCC {
+    width: 50%;
+    text-align: left;
+}
+.prepTDPl i{
+    padding: 10px;
+    background-color: #1a237e;
+    border-radius: 5px;
+    color: white;
+}
+.pPrip {
+    font-size: 20px; color:#1a237e;
+    align-self: center;
+    width: 100%;
+    box-sizing: content-box;
+}
+
+/* items pricription */
+.itmPrep {
+    display: flex;
+    margin-top: 15px;
+    padding:10px ;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 3px 3px #efefef;
+}
+.itmDivPri {
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.itmPTH {
+    color: #1a237e;
+    font-size: 17px;
+}
+.itmPripSub {
+    font-size: 13px;
+    color: rgb(113, 113, 113);
+}
+.funcItmDv div i {
+    padding: 0px 5px;
+
+}
+.funcItmDv button {
+    padding: 3px 10px;
+    color: white;
+    background-color: #1a237e;
+    outline: none;
+    border: none;
+    font-size: 13px;
+    border-radius: 5px;
+    width: 90px;
+    margin-top: 5px;
+}
+
+
+/* tests codes style */
+
+.testCC div {
+    display: flex;
+}
+.seletItmTst{
+    margin-right: 15px;
+    padding: 5px 10px;
+    border: 1.2px solid #1a237e;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.seletItmTst p {
+    font-size: 12px;
+    color: #1a237e;
+    align-self: center;
+    align-self: center;
+}
+.seletItmTst i {
+    align-self: center;
+}
+.inpSerTest {
+    font-size: 13px;
+    color: gray;
+    outline: none;
+    border: 0.5px solid rgb(213, 213, 213);
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+/* here is media query for 1210px */
+@media only screen and (max-width:1210px)
+{
+    .menuMdlt a p{
+        margin-left: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+/* here is media query for 1110px */
+@media only screen and (max-width:1110px)
+{
+    .mdivB {
+        display: block;
+    }
+    .mdL {
+        display: flex;
+        width: 100%;
+        height: 55px;
+    }
+    #addNLAPS {
+        visibility: hidden;
+     }
+    .mdLT {
+        height: 0px;
+        width: 0px;
+    }
+    .mdLT i{
+        height: 0px;
+        width: 0px;
+        visibility: hidden;
+    }
+ 
+    .mdLT i{
+        align-self: center;
+    }
+
+    .menuMdlt {
+        display: flex;
+        padding: 10px;
+    }
+    .menuMdlt a{
+        width: auto;
+        display: flex;
+        cursor: pointer;
+        text-decoration: none;
+        box-sizing: border-box;
+        margin: 0px 5px;
+        padding: 0px 10px;
+
+    }
+    .menuMdlt a i{
+        color: white;
+        display: flex;
+        padding: 0px;
+        margin: 0px 5px;
+        align-self: center;
+        
+    }
+    .menuMdlt a p{
+        color: white;
+        padding: 0px;
+        margin: 0px;
+        margin-left: 5px;
+        align-self: center;
+        width: fit-content;
+    }
+    .currentItemClickDash{
+        border-radius: 10px;
+        background-color: white;
+    }
+    /* dasboard hover effect start */
+    .personMdlt:hover {
+        border-radius:  10px;
+        background-color: rgba(255, 255, 255, 0.147);
+    }
+    .chatRoomMdlt:hover {
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.147);
+    }
+    .srttingsMdlt:hover {
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.147);
+        
+    }
+
+    .mdRT{
+        box-shadow: 0 5px 5px 0 #efefef;
+
+    }
+    .vatalsCC {
+
+    }
+}
+
+
+
+
+
+
+
+/* here is media query for 984px */
+@media only screen and (max-width:984px)
+{
+    .mlFS {
+        margin-right: 0px;
+    }
+    .mrFS {
+        margin-left: 0px;
+    }
+
+    .mdRTR {
+        padding: 0px 10px;
+    }
+   
+    .rowMDRBD {
+        display: block;
+    }
+    .patientMDRBD {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    #notiIcLAPS {
+       display: none;
+    }
+    #addNLAPS {
+        visibility: visible;
+        height: 15.6px;
+        width: 18px;
+        align-self: center;
+    }
+    .recVita {
+        display: block;
+    }
+    .recVita  {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+
+    }
+
+    .mlFS {
+        margin-right: 0px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .vatalsCC{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .hartRCrdV{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+/* here is media query for 974px */
+@media only screen and (max-width:974px)
+{
+    .mdRTD {
+        margin-left: 10px;
+    }
+}
+
+
+
+
+
+
+
+/* here is media query for 940px */
+@media only screen and (max-width:955px)
+{
+   .mdRTD {
+    display: none;
+   }
+   .mdRT a {
+    display: none;
+   }
+}
+
+
+/* here is media query for 835px */
+@media only screen and (max-width:835px)
+{
+    .prepTest {
+        display: block;
+    }
+    .prepTest div {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+}
+/* here is media query for 54px */
+@media only screen and (max-width:540px)
+{
+    .menuMdlt a p {
+        display: none;
+        
+    }
+    .mdRB {
+        padding: 20px;
+    }
+
+    /* patient and doctor card */
+    .patImaCrd {
+        display: block;
+    }
+    .patImaCrd div{
+        padding: 0px;
+    }
+
+    .dbCrdB1 {
+        padding-right: 10px;
+    }
+    .dbCrdB2 {
+        padding-left: 15px;
+    }
+    .menuMdlt {
+        width: 100%;
+        
+    }
+    .menuMdlt a {
+        margin: auto;
+        padding: 10px;
+    }
+    .recomCC {
+        display: block;
+    }
+    .serDoc{
+       width: 100%;
+    }
+    .recomItmRV{
+        margin-top: 10px;
+    }
+    .inpSerTest {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .allMedCh {
+        display: block;
+      
+    }
+    .allMedChL {
+        width: 100%;
+        box-sizing: border-box;
+        
+    }
+    .allMedChR {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 15px;
+    }
+    .hartRCrdV {
+        margin: auto;
+        padding: 10px;
+        border: 1.5px solid #efefef;
+        border-radius: 10px;
+        height: 100%;
+    }
+
+}
+
+
+

@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    height: 50%;
+    width: 1090px;
+    display: grid;
+ 
+
+    grid-template-rows: 40px 1fr 1fr;
+    grid-template-columns: 30px 1fr 1fr;
+
+
+}
+
+.side{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start:1;
+    grid-column-end: 2;
+    background-color: rgb(7, 7, 74);
+    /* width: 100px;
+    height: 600px;  */
+
+
+
+}
+
+.nav{
+    display: flex;
+   justify-content: right;
+}
+
+.nav{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start:2;
+    grid-column-end: 4;
+    background-color: rgb(253, 246, 246);
+    
+    /* height: 60px;
+    width: 995px; */
+
+
+}
+
+.logout{
+    margin-top: px;
+    margin-bottom: px;
+    margin-right: 15px;
+    height: px;
+    width: px;
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+ }
+
+ 
+ .icon-button {
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 12px;
+   height: 12px;
+   color: #333333;
+   background: #dddddd;
+   border: none;
+   outline: none;
+   border-radius: 50%;
+   margin-right: 15px;
+
+ }
+ 
+ .icon-button:hover {
+   cursor: pointer;
+ }
+ 
+ .icon-button:active {
+   background: #dbdbdb;
+ }
+ 
+ .icon-button__badge {
+   position: absolute;
+   top: -10px;
+   right: -10px;
+   width: 8px;
+   height: 8px;
+   background: red;
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+    
+ }
+
+ #jhon{
+    margin-top: px;
+    margin-bottom: px;
+    margin-right: 5px;
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+     
+    outline: none;
+     
+ }
+
+ .img-nav{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+ }
+
+
+.main{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start:2;
+    grid-column-end: 4;
+    background-color: rgb(232, 232, 232);
+    /* height: 540px; 
+    width: 995px;*/
+    
+
+}
+
+.main{
+    display: grid;
+    grid-template-rows: 70px 1fr 80px ;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+.upper{
+    background-color: rgb(232, 232, 232);
+     
+    display: flex;
+}
+
+.upr-1{
+    margin-left: 65px;
+    margin-top: 25px;
+
+}
+
+ 
+.upr-2 > input {
+     
+    width: 300px;
+    margin-top: 30px;
+    margin-left:250px;
+    outline: none;
+    height: 25px;
+    
+}
+
+.upr-2 > img{
+    position: relative;
+    left: 280px;
+    height: 17px;
+    bottom: 2px;
+    opacity: 0.4;
+
+}
+
+ ::placeholder{
+     
+    font-size: 12px;
+    text-align: center;
+    margin-left: 150px;
+    font-weight: bold;
+   opacity: 1;
+   margin-bottom: 10px;
+
+    
+     
+      
+ }
+
+
+.upr-3{
+     margin-left: 16px;
+     margin-top: 30px;
+     
+     
+     
+}
+
+.middle{
+    background-color: rgb(232, 232, 232);
+     
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 8px;
+    column-gap: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.lower{
+    background-color: rgb(232, 232, 232);
+     
+}
+
+
+
+.one{
+     
+    background-color: white;
+     
+ }
+
+ .sub{
+    display: flex;
+ }
+
+ .two{
+     
+    background-color: white;
+     
+ }
+
+ .three{
+    
+    background-color: white;
+ }
+
+ .four{
+    
+    background-color: white;
+ }
+
+ .five{
+    
+    background-color: white;
+ }
+
+ .six{
+   
+    background-color: white;
+ }
+
+ .seven{
+    
+    background-color: white;
+ }
+
+ .eight{
+    
+    background-color: white;
+ }
+
+ .nine{
+   
+    background-color: white;
+ }
+
+ .ten{
+    
+    background-color: white;
+ }
+
+ .eleven{
+   
+    background-color: white;
+ }
+
+ .twelve{
+    
+    background-color: white;
+ }
+
+ .img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 10px;
+ }
+
+ .cnt{
+    padding-top: 15px;
+    padding-left: 20px;
+    line-height: 15px;
+ }
+
+ .cnt > h6{
+    margin-bottom: 0px;
+    font-size: 16px;
+
+ }
+
+ .cnt > p{
+    font-size: 12px;
+    font-style: normal;
+    /* font-weight: bold; */
+    color: gray;
+ }
+
+ .lower{
+   margin-left: 920px;
+   margin-top: 23px;
+ }
+
+.nav-button-sun{
+   background-color: rgb(7, 7, 74); 
+   color: white;
+}
+
+.fafa > svg{
+
+   margin-left: 60px;
+   margin-bottom: 8px;
+
+}
+
+.pen > svg{
+   margin-left: 100px;
+   margin-top: 2px;
+
+    
+}
+
+ 
+

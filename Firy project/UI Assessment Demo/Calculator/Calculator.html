@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <label >Enter Number 1: </label> <input type="text" id="num1" ><br><br>
+        <label >Enter Number 2: </label>   <input type="text" id="num2" ><br> <br>
+
+        <button onclick="add()">Add</button>  <button onclick="sub()">Substraction</button> <br> <br>
+        <button onclick="multi()">Multiplication</button>   <button onclick="div()">Division</button>
+
+        <div id="print"></div>
+    </body>
+
+    <script>
+        function add(){
+            var c;
+            a=document.getElementById("num1").value;
+            b=document.getElementById("num2").value;
+
+             c=parseInt(a)+parseInt(b);
+             document.getElementById('print').innerHTML = "Sum is : "+c;
+        }
+
+        function sub(){
+            var c;
+            a=document.getElementById("num1").value;
+            b=document.getElementById("num2").value;
+
+             c=parseInt(a-b);
+             document.getElementById('print').innerHTML = "Subastrsct is : "+c;
+        }
+
+        function multi(){
+            var c;
+            a=document.getElementById("num1").value;
+            b=document.getElementById("num2").value;
+
+             c=parseInt(a)*parseInt(b);
+             document.getElementById('print').innerHTML = "Multiplication is : "+c;
+        }
+
+        function div(){
+            var c;
+            a=document.getElementById("num1").value;
+            b=document.getElementById("num2").value;
+
+             c=parseInt(a)/parseInt(b);
+             document.getElementById('print').innerHTML = "Divid  is : "+c;
+        }
+    </script>
+</html>

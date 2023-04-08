@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Food Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a8995c637e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+<!-- header section starts      -->
+
+<header>
+    
+    <a href="#home" class="logo"><i class="fas fa-utensils" ><span style="color: blue;">Hooks Restaurant</span></i></a>
+    
+    <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#order">order</a> 
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+
+<!-- header section ends-->
+
+<!-- search form  -->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper-container home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>spicy noodles</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn">order now</a>
+                    <!-- <button style="color: white; background-color: green; width: 100px;height: 25px;">Order Now</button> -->
+                </div>
+                <div class="image">
+                    <img src="images/home-img-1.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>fried chicken</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn">order now</a>
+                    <!-- <button style="color: white; background-color: green; width: 100px;height: 25px;">Order Now</button> -->
+                </div>
+                <div class="image">
+                    <img src="images/home-img-2.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>hot pizza</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn">order now</a>
+                    <!-- <button style="color: white; background-color: green; width: 100px;height: 25px;">Order Now</button> -->
+                </div>
+                <div class="image">
+                    <img src="images/home-img-3.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- dishes section starts  -->
+
+<section class="dishes" id="dishes">
+
+    <h3 class="sub-heading" align="center"> our dishes </h3>
+    <h1 class="heading" align="center"> popular dishes </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+           <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-1.png" alt="">
+            <h3>tasty food</h3>
+            <div class="stars" style="color: green;">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+                <i class="fas fa-star-half-alt"></i>
+               
+            </div>
+            <span>₹399</span>   
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-2.png" alt="">
+            <h3>tasty food</h3>
+            <div class="stars" style="color: green;">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+               
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>₹399</span>   
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-3.png" alt="">
+            <h3>tasty food</h3>
+            <div class="stars" style="color: green;">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>₹399</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-4.png" alt="">
+            <h3>tasty food</h3>
+            <div class="stars" style="color: green;">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            
+            <span>₹399</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-5.png" alt="">
+            <h3>tasty food</h3>
+            <div class="stars" style="color: green;">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            
+            <span>₹399</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-6.png" alt="">
+            <h3>tasty food</h3>
+            <div class="stars" style="color: green;">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+          
+            <span>₹399</span>
+            <a href="#" class="btn">add to cart</a>
+            
+        </div>
+        
+
+    </div>
+
+</section>
+
+<!-- dishes section ends -->
+<section class="about" id="about" style="height: 600px;">
+    <div class="swiper-wrapper wrapper">
+   
+    
+
+        <div class="image">
+          
+            <img src="images/about-img.png" alt="" style="height: 600px; width:700px">
+        </div>
+            <div class="content">
+                <h1  style="font-size: 350%;">Best Food Outside Pratian</h1>
+                <br>
+                <p style="font-size: 140%;">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Dolore, sequi <br><br>Corrupti Corporis Quaerat Voluptatem Ipsam Neque Labore Modi Autem,<br><br> Saepe Numquam Quod Reprehenderit Rem? Tempora Aut Soluta Odio<br><br> Corporis Nihil!.<br><br>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.Aperiam, Nemo.<br> Sit Porro Illo Eos Cumque Deleniti Iste Alias, Eum Natus.</p>
+                <button class="btn" style="background-color: rgb(223,227,227); color:black; width:49%;height:10%"><i style="color: green; " class="fa-solid fa-truck-fast"></i>&nbspFree Delivery</button>
+                <button class="btn" style="background-color: rgb(223,227,227); color:black; width:49%;height:10%"><i style="color: green;font-weight: 900;" class="fa-solid fa-dollar-sign" ></i>&nbspEasy Payment</button>
+                <br>
+                <button class="btn" style="background-color: rgb(223,227,227); color:black; width:98%;height:10%"><i style="color: green; font-weight: 900;" class="fa-solid fa-headset"></i>&nbsp24/7 Service</button>
+                <br><br>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        
+    </div>
+</section>
+<!-- menu section yaha se start he<i style="color: green;font-weight: 900;" >&doller;</i> -->
+<section class="menu" id="menu">
+
+ <h3 class="sub-heading" align="center"> our menu </h3>
+    <h1 class="heading" align="center"> Today Speciality </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+           <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/menu-1.jpg" alt=""  >
+            <div align="left" class="stars" style="color: green;">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+                <i class="fas fa-star-half-alt"></i>
+               
+                
+               
+            </div>
+           
+            <h3 align="left">Delicious Food</h3>
+            <p align="left">Lorem Ipsum dolor Sit,Amet<br> consectetur adipisicing Elit.<br>Excepturi,Accusantium.</p>
+            
+             <div align="left"> 
+              <a href="#" class="btn" >add to cart</a>
+              <span>₹399</span>
+              </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-eye"></a>
+             <img src="images/menu-2.jpg" alt="" height="60px" width="255px" >
+             <div align="left" class="stars" style="color: green;">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 
+                 <i class="fas fa-star-half-alt"></i>
+                
+             </div>
+             <h3 align="left">Delicious Food</h3>
+             <p align="left">Lorem Ipsum dolor Sit,Amet<br> consectetur adipisicing Elit.<br>Excepturi,Accusantium.</p>
+             
+                
+             <a href="#" class="btn">add to cart</a>
+             <span>₹399</span>
+         </div>
+
+         <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-eye"></a>
+             <img src="images/menu-3.jpg" alt="" >
+             <div align="left" class="stars" style="color: green;">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 
+                 <i class="fas fa-star-half-alt"></i>
+                
+             </div>
+             <h3 align="left">Delicious Food</h3>
+             <p align="left">Lorem Ipsum dolor Sit,Amet<br> consectetur adipisicing Elit.<br>Excepturi,Accusantium.</p>
+             
+                
+             <a href="#" class="btn">add to cart</a>
+             <span>₹399</span>
+         </div>
+
+         <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-eye"></a>
+             <img src="images/menu-4.jpg" alt="" >
+             <div align="left" class="stars" style="color: green;">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 
+                 <i class="fas fa-star-half-alt"></i>
+                
+             </div>
+             <h3 align="left">Delicious Food</h3>
+             <p align="left">Lorem Ipsum dolor Sit,Amet<br> consectetur adipisicing Elit.<br>Excepturi,Accusantium.</p>
+             
+                
+             <a href="#" class="btn">add to cart</a>
+             <span>₹399</span>
+         </div>
+
+         <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-eye"></a>
+             <img src="images/menu-5.jpg" alt="" >
+             <div align="left" class="stars" style="color: green;">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 
+                 <i class="fas fa-star-half-alt"></i>
+                
+             </div>
+             <h3 align="left">Delicious Food</h3>
+             <p align="left">Lorem Ipsum dolor Sit,Amet<br> consectetur adipisicing Elit.<br>Excepturi,Accusantium.</p>
+             
+                
+             <a href="#" class="btn">add to cart</a>
+             <span>₹399</span>
+         </div>
+
+         <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-eye"></a>
+             <img src="images/menu-6.jpg" alt="" >
+             <div align="left" class="stars" style="color: green;">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 
+                 <i class="fas fa-star-half-alt"></i>
+                
+             </div>
+             <h3 align="left">Delicious Food</h3>
+             <p align="left">Lorem Ipsum dolor Sit,Amet<br> consectetur adipisicing Elit.<br>Excepturi,Accusantium.</p>
+             
+                
+             <a href="#" class="btn">add to cart</a>
+             <span>₹399</span>
+         </div>
+
+         <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-eye"></a>
+             <img src="images/menu-7.jpg" alt="" >
+             <div align="left" class="stars" style="color: green;">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 
+                 <i class="fas fa-star-half-alt"></i>
+                
+             </div>
+             <h3 align="left">Delicious Food</h3>
+             <p align="left">Lorem Ipsum dolor Sit,Amet<br> consectetur adipisicing Elit.<br>Excepturi,Accusantium.</p>
+             
+                
+             <a href="#" class="btn">add to cart</a>
+             <span>₹399</span>
+         </div>
+
+         <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-eye"></a>
+             <img src="images/menu-8.jpg" alt="" >
+             <div align="left" class="stars" style="color: green;">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 
+                 <i class="fas fa-star-half-alt"></i>
+                
+             </div>
+             <h3 align="left">Delicious Food</h3>
+             <p align="left">Lorem Ipsum dolor Sit,Amet<br> consectetur adipisicing Elit.<br>Excepturi,Accusantium.</p>
+             
+                
+             <a href="#" class="btn">add to cart</a>
+             <span>₹399</span>
+         </div>
+
+         <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-eye"></a>
+             <img src="images/menu-9.jpg" alt="" >
+             <div align="left" class="stars" style="color: green;">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 
+                 <i class="fas fa-star-half-alt"></i>
+                
+             </div>
+             <h3 align="left">Delicious Food</h3>
+             <p align="left">Lorem Ipsum dolor Sit,Amet<br> consectetur adipisicing Elit.<br>Excepturi,Accusantium.</p>
+             
+                
+             <a href="#" class="btn">add to cart</a>
+             <span>₹399</span>
+         </div>
+         
+      
+
+       
+
+       
+    </section>
+    
+<!-- loader part  -->
+<div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

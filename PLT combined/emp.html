@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var gms;
+        var tax;
+        var name=prompt("enter the employee name:");
+        const id=prompt("enter the employee Id:");
+        var basic=prompt("enter the employee basic:");
+        var spa=prompt("enter the employee spacial allowances:");
+        var Annual=prompt("enter the annual salary:");
+
+        gms = parseInt(basic)+parseInt(spa);
+
+         console.log( "gross monthly salary:" +gms);
+
+        if(Annual<=250000)
+        {
+            console.log("Net Annual salary is:" +Annual);
+
+        }
+        else if(Annual>=250000 && Annual<=500000)
+        {
+            tax=Annual* (5/100);
+            Annual = Annual-tax;
+            console.log("Net Annual salary is:" +Annual);
+
+        }
+        else if(Annual>=500000 && Annual<=1000000)
+        {
+            tax=Annual* (20/100);
+            Annual = Annual-tax;
+            console.log("Net Annual salary is:" +Annual);
+
+        }
+        else if(Annual>=1000000)
+        {
+            tax=Annual* (20/100);
+            Annual = Annual-tax;
+            console.log("Net Annual salary is:" +Annual);
+
+        }
+
+    </script>
+</body>
+</html>

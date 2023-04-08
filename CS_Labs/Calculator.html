@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <style>
+            label{
+                display: inline-block;
+                width: 120px;
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body style="padding-top: 15%;padding-left: 30%;">
+        <!-- <body style="margin-top: 20%;"> -->
+    <div align="center" style="background-color: lightpink;padding-top: 30px;padding-bottom: 30px;width: 500px;">
+        <label >Enter Number 1: </label> <input type="text" id="num1" ><br><br>
+        <label >Enter Number 2: </label>   <input type="text" id="num2" ><br> <br>
+        <label >Result : </label>  <input type="textarea" id="print" style="height: 25px;" ><br> <br>
+
+        <button  onclick="add()">Addition</button>  <button onclick="sub()">Substraction</button> 
+        <button onclick="multi()">Multiplication</button>   <button onclick="div()">Division</button>
+
+        <div id="print"></div>
+        
+        
+    </div>
+
+    
+    </body>
+
+    <script>
+        function add(){
+            var c;
+            a=document.getElementById("num1").value;
+            b=document.getElementById("num2").value;
+
+             c=parseInt(a)+parseInt(b);
+             document.getElementById('print').value = +c;
+        }
+
+        function sub(){
+            var c;
+            a=document.getElementById("num1").value;
+            b=document.getElementById("num2").value;
+
+             c=parseInt(a-b);
+             document.getElementById('print').value = +c;
+        }
+
+        function multi(){
+            var c;
+            a=document.getElementById("num1").value;
+            b=document.getElementById("num2").value;
+
+             c=parseInt(a)*parseInt(b);
+             document.getElementById('print').value = +c;
+        }
+
+        function div(){
+            var c;
+            a=document.getElementById("num1").value;
+            b=document.getElementById("num2").value;
+
+             c=parseInt(a)/parseInt(b);
+             document.getElementById('print').value = +c;
+        }
+    </script>
+</html>

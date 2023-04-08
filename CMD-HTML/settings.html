@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account Settings 2</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+      integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="settings.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/solid.min.css"
+      integrity="sha512-6mc0R607di/biCutMUtU9K7NtNewiGQzrvWX4bWTeqmljZdJrwYvKJtnhgR+Ryvj+NRJ8+NnnCM/biGqMe/iRA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css"
+      integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/solid.min.js" integrity="sha512-F0Gp9qi8/3qyo+62Pi1ZgGe6hAUxPbzOnqhhpJYAMUGDmOys95dCRCVYfQawlUeoGp1Rj/K9V7NboA9sQ9BtKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/fontawesome.min.js" integrity="sha512-nKvEIGRKw2OQCR34yLfnWnvrOBxidLG9aK+vzsBxCZ/9ZxgcS4FrYcN+auWUTkCitTVZAt82InDKJ7x+QtKu6g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="script.js"></script>
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+
+        <!-- start -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="dashboard.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+        <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+        <!-- end  -->
+  </head>
+  <body>
+
+    <div class="d-flex">
+        <div class="l-sidenav">
+            <p>Connect My Doc <iconify-icon icon="material-symbols:signal-cellular-alt" rotate="270deg"style="font-size:25px;float:right;"></iconify-icon></p>
+            <a href="dashboard.html" class="a2"><i class="glyphicon glyphicon-stats" style="padding-right: 8px; padding-left:4px;"></i> Dashboard</a><br><br>
+            <a href="doctors.html" class="a2"><i class="glyphicon glyphicon-stats" style="padding-right: 8px; padding-left:4px;"></i> Doctor</a><br><br>
+            <a href="patients.html" class="a2"><i class="glyphicon glyphicon-stats" style="padding-right: 8px; padding-left:4px;"></i> Patients</a><br><br>
+            <a href="chat.html" class="a2"><i class="bi bi-chat-left" style="padding-right: 8px; padding-left:4px;"></i>Chat Room</a><br><br>
+            <a href="settings.html" class="a2"><i class="glyphicon glyphicon-stats" style="padding-right: 8px; padding-left:4px;"></i> Settings</a><br><br>
+        </div>  
+        <div class="r-sidenav d-flex flex-column">
+            <div class="top-container">
+                <div class="profile pt-3">
+                    <a href=""><iconify-icon inline icon="mdi:bell-notification" style="font-size: 20px; color: gray;"></iconify-icon></a>
+                    <a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: gray;">
+                        Sam Watson
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Status: Online</a><hr>
+                        <a class="dropdown-item" href="#">Account Settings</a><hr>
+                        <a class="dropdown-item" href="#">Feedback</a><hr>
+                        <a class="dropdown-item" href="#">Logout</a>
+                    </div>
+                    <span><img src="images/patient7.png" class="pro-img" /></span>
+                </div>
+            </div>
+            <div style="display: flex">
+     
+
+                <section
+                  id="stng-section"
+                  style="margin-left: 40px; width: 100%; height: 650px"
+                >
+               
+                  <section class="avlble-stng" style="display: flex">
+                    <div class="stng-card">
+                      <div
+                        class="stng-hdr"
+                        style="flex-direction: column; text-align: center"
+                      >
+                        <h4
+                          onclick="stng_change2()"
+                          style="margin-top: 20px; color: rgb(41, 62, 95)"
+                        >
+                          Account Setting
+                        </h4>
+                        <h6 onclick="stng_change()" style="color: grey">
+                          Availability Settings
+                        </h6>
+                      </div>
+          
+                      <script>
+                        function stng_change() {
+                          var stg_card = document.getElementById("stng-card");
+                          var stg_card2 = document.getElementById("stng-card2");
+                          var h4 = document.querySelector(".stng-hdr h4");
+                          var h6 = document.querySelector(".stng-hdr h6");
+                          stg_card.style.display = "none";
+                          stg_card2.style.display = "block";
+                          h4.style.color = "grey";
+                          h4.style.fontSize = "16px";
+                          h6.style.color = "rgb(41,62,95)";
+                          h6.style.fontSize = "22px";
+                        }
+                        function stng_change2() {
+                          var stg_card = document.getElementById("stng-card");
+                          var stg_card2 = document.getElementById("stng-card2");
+                          var h4 = document.querySelector(".stng-hdr h4");
+                          var h6 = document.querySelector(".stng-hdr h6");
+          
+                          stg_card.style.display = "block";
+                          stg_card2.style.display = "none";
+                          h4.style.color = "rgb(41,62,95)";
+                          h4.style.fontSize = "22px";
+                          h6.style.color = "grey";
+                          h6.style.fontSize = "16px";
+                        }
+                      </script>
+                    </div>
+                    <div id="stng-card2" class="stng-cont" style="display: none">
+                      <div
+                        class="card2-div1"
+                        style="display: flex; justify-content: center; margin: 30px"
+                      >
+                        <div>
+                          <script>
+                            function days_pop() {
+                              var status = document.getElementById("pop_day");
+                              var check = document.querySelectorAll(".cheeck ");
+                              var count = 0;
+                              if (status.style.display == "block") {
+                                status.style.display = "none";
+                                for (let i = 0; i < check.length; i++) {
+                                  // console.log(check[i].checked)
+                                  if (check[i].checked == true) {
+                                    count = count + 1;
+                                  }
+                                }
+                                document.getElementById("chec-btn").innerText =
+                                  count + " Days";
+                              } else {
+                                status.style.display = "block";
+                              }
+                            }
+                          </script>
+          
+                          <h3>Working Days</h3>
+                          <button
+                            id="chec-btn"
+                            onclick="days_pop()"
+                            style="
+                              border: 1px solid rgb(210, 210, 210);
+                              color: rgb(0, 174, 255);
+                            "
+                          >
+                            Select
+                          </button>
+                          <div id="pop_day" class="days-pop">
+                            <input class="cheeck" type="checkbox" /><label> Mon</label
+                            ><br />
+                            <input class="cheeck" type="checkbox" /><label> Tue</label
+                            ><br />
+                            <input class="cheeck" type="checkbox" /><label> Wed</label
+                            ><br />
+                            <input class="cheeck" type="checkbox" /><label> Thu</label
+                            ><br />
+                            <input class="cheeck" type="checkbox" /><label> Fri</label
+                            ><br />
+                            <input class="cheeck" type="checkbox" /><label> Sat</label
+                            ><br />
+                            <input class="cheeck" type="checkbox" /><label> Sun</label
+                            ><br />
+                          </div>
+                        </div>
+          
+                        <div
+                          style="
+                            border-bottom: 1px solid rgb(0, 174, 255);
+                            display: flex;
+                            padding-top: 35px;
+                          "
+                        >
+                          <label>Start Time: </label>
+                          <input
+                            style="
+                              outline: none;
+                              border: 0px solid;
+                              height: 20px;
+                              width: 60px;
+                            "
+                          />
+                        </div>
+          
+                        <div
+                          style="
+                            border-bottom: 1px solid rgb(0, 174, 255);
+                            display: flex;
+                            padding-top: 35px;
+                          "
+                        >
+                          <label>End Time: </label>
+                          <input
+                            style="
+                              outline: none;
+                              border: 0px solid;
+                              height: 20px;
+                              width: 60px;
+                            "
+                          />
+                        </div>
+                      </div>
+                      <hr />
+                      <div class="timers" style="height: 50px">
+                        <table>
+                          <tr>
+                            <td>
+                              <p style="color: grey">
+                                <i>Drag a slot to add a Daily timeline</i>
+                              </p>
+                            </td>
+                            <td>
+                              <button style="border: 2px solid green">
+                                <p style="color: green">●</p>
+                                15 min
+                              </button>
+                            </td>
+                            <td>
+                              <button style="border: 2px solid rgb(0, 106, 198)">
+                                <p style="color: rgb(0, 106, 198)">●</p>
+                                30 min
+                              </button>
+                            </td>
+                            <td>
+                              <button style="border: 2px solid rgb(6, 24, 82)">
+                                <p style="color: rgb(6, 24, 82)">●</p>
+                                1 hr
+                              </button>
+                            </td>
+                            <td>
+                              <button style="border: 2px solid rgb(255, 166, 0)">
+                                <p style="color: rgb(255, 166, 0)">●</p>
+                                1.5 hr
+                              </button>
+                            </td>
+                            <td>
+                              <button style="border: 2px solid rgb(123, 5, 249)">
+                                <p style="color: rgb(123, 5, 249)">●</p>
+                                2 hr
+                              </button>
+                            </td>
+                            <td>
+                              <button style="border: 2px solid rgb(255, 0, 0)">
+                                <p style="color: rgb(255, 0, 0)">●</p>
+                                Break
+                              </button>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                      <hr />
+          
+                      <div class="table-main">
+                        <table>
+                          <tr>
+                            <td>
+                              <p class="table-elm">12.00 AM</p>
+                              <input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="table-elm">2.00 AM</p>
+                              <input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="table-elm">4.00 AM</p>
+                              <input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="table-elm">6.00 AM</p>
+                              <input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="table-elm">8.00 AM</p>
+                              <input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="table-elm">10.00 AM</p>
+                              <input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="table-elm">12.00 PM</p>
+                              <input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="table-elm">2.00 PM</p>
+                              <input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="table-elm">4.00 PM</p>
+                              <input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="table-elm">6.00 PM</p>
+                              <input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="table-elm">8.00 PM</p>
+                              <input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="table-elm">10.00 PM</p>
+                              <input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input /><input />
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+          
+                    <div id="stng-card" class="stng-cont">
+                      <div class="stng-hdr">
+                        <button id="edit2" onclick="edit();" class="btn-reg">Edit</button>
+          
+                        <script>
+                          function edit() {
+                            var edit = document.getElementById("edit2");
+                            var input = document.querySelectorAll("td input");
+                            // console.log(input);
+          
+                            if (edit.innerText == "Edit") {
+                              edit.innerText = "Save";
+                              edit.style.backgroundColor = "rgb(41,62,95)";
+                              edit.style.color = "white";
+          
+                              for (let i = 0; i < input.length; i++) {
+                                input[i].style.borderBottom = " 1px  solid grey";
+                              }
+                            } else {
+                              edit.innerText = "Edit";
+                              edit.style.backgroundColor = "white";
+                              edit.style.color = "rgb(41,62,95)";
+                              for (let i = 0; i < input.length; i++) {
+                                input[i].style.border = "0px solid black";
+                              }
+                              input.style.cursor = "none";
+                            }
+                          }
+                        </script>
+                      </div>
+          
+                      <div class="stng-details" width="100%">
+                        <div class="stng-col">
+                          <img
+                            style="border-radius: 50%"
+                            height="100px"
+                            width="100px"
+                            src="../images/doctor.jpeg"
+                          />
+                          <i class="bi bi-camera-fill"></i>
+                        </div>
+                        <div class="stng-col">
+                          <table>
+                            <tr>
+                              <td>
+                                <label>Name: </label
+                                ><select class="drpdwn">
+                                  <option>Dr</option>
+                                  <option>Mr</option>
+                                  <option>Mrs</option>
+                                </select>
+                              </td>
+          
+                              <td>
+                                <input id="name" value="Yasar khan" />
+                              </td>
+                            </tr>
+          
+                            <tr>
+                              <td><label>Email: </label></td>
+          
+                              <td>
+                                <input type="email" value="Yasarkhan@cmd.com" />
+                              </td>
+          
+                              <td><label>Phone no:</label></td>
+                              <td>
+                                <input value="8390890483" />
+                              </td>
+                            </tr>
+          
+                            <tr class="splty">
+                              <td><label>Spaciality: </label></td>
+                              <td><input type="text" value="Cardio" /></td>
+                            </tr>
+          
+                            <tr>
+                              <td><label>NPI No: </label></td>
+                              <td><input value="125696969" /></td>
+                            </tr>
+          
+                            <tr>
+                              <td><label>Practice Location: </label></td>
+                              <td><input value="San Francisco" /></td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+              </div>
+        </div>
+    </div>
+
+    
+   
+  </body>
+</html>

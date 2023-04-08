@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+    
+	let arr = [ 2, 3, 4, 10, 40 ];
+	let x = prompt("enter the number u want to find");
+	let n = arr.length;
+
+	
+	let result = search(arr, n, x);
+	if(result == -1)
+    {
+        document.write("Element is not present in array")
+    }
+    else{
+        document.write("Element is present at index " + result);
+    }
+		 
+function search(arr, n, x)
+{
+	let i;
+	for (i = 0; i < n; i++)
+    {
+        if (arr[i] == x)
+			return i;
+    }
+		
+	return -1;
+}
+
+
+
+
+
+
+</script>
+
+                  
+        
+          
+           
+     
+        
+      
+        
+</body>
+</html>

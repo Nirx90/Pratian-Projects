@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+</head>
+<body>
+    <div class="d-flex">
+        <div class="l-sidenav">
+            <p>Connect My Doc <iconify-icon icon="material-symbols:signal-cellular-alt" rotate="270deg"style="font-size:25px;float:right;"></iconify-icon></p>
+             <a href="dashboard.html" class="a1"><i class="glyphicon glyphicon-stats" style="padding-right: 8px; padding-left:4px;"></i> <h5>Dashboard</h5></i>                                <i class="bi bi-2-circle-fill"></i></a><br>
+             <a href="doctors.html" class="a2"><i class="bi bi-person" style="padding-right: 8px; padding-left:4px;"> 
+            </i>Doctors    <i class="bi bi-3-circle"></i></a><br><br>
+             <a href="patients.html" class="a2"><i class="bi bi-person" style="padding-right: 8px; padding-left:4px;"> 
+            </i>Patients    <i class="bi bi-3-circle"></i></a><br><br>
+            <a href="chat.html" class="a2"><i class="bi bi-chat-left" style="padding-right: 8px; padding-left:4px;"></i>Chat Room</a><br><br>
+            <a href="settings.html" class="a2"><i class="bi bi-gear" style="padding-right: 8px; padding-left:4px;"></i>Settings</a>
+        </div>  
+        <div class="r-sidenav d-flex flex-column">
+            
+            <div class="top-container">
+                <div style="display:flex;">
+                    
+                </div>
+                <div style="display:flex;">
+                <p style="text-align: left;color: rgb(19, 53, 243);margin-top:2%;margin-left: 5px;">
+                    <H3 style="color: rgb(32, 32, 102);"><b>Appointments</b></H3></p>
+                <select style="margin-left:20px; height:1.2%; margin-top:2%; width: 14%;">
+                    <option><i class="fa-solid fa-stethoscope"></i>St Marry Clinic</option>
+
+                </select>
+                <select style="margin-left:20px; height:1.2%; margin-top:2%; width: 14%;">
+                    <option><b>Jhon Doe</b></option>
+                    
+                </select>
+                <button type="button" class="btn btn-outline-primary" style="margin-top:10px;margin-left: 20px;">
+                    <i>.New Appointment</i> </button>
+                <a style="margin-left:35%; margin-top: 2%;" href=""><iconify-icon inline icon="mdi:bell-notification" style="font-size: 20px; color: gray;"></iconify-icon></a>
+                    <!-- <a >
+                        Jhon Doe
+                    </a> -->
+                    <select name="" id=""style="margin-top: 2%; margin-left: 1%;" class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: gray;">
+                        <option value="" selected>Jhon Doe</option>
+                        <option value="">Log Out</option>
+                    </select>
+
+                    <span style="margin-top: 17px;margin-left:1%;"><img  src="images/patient8.jpg" class="pro-img" /></span>
+                    </div>
+                <div class="profile pt-3" >
+                    
+                    
+                </div>
+            </div>
+
+
+            <!-- Siddhant Part Will Start From Here -->
+                <div class="content" >
+                        
+            <div class="bottam-container m-3">
+                
+                <div class="row">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <h4 style="color: rgb(18, 20, 18);" >Accepted Appointment</h4>
+                        <div class="text">
+                          <p class="para">77</p><span class="text-span">Today</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <h4 style="color: rgb(18, 20, 18);" >Total Appointments</h4>
+                        <div class="text">
+                          <p class="para">02</p><span class="text-span">Today</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <h4 style="color: rgb(18, 20, 18);" >Cancelled Appointment</h4>
+                        <div class="text">
+                          <p class="para">04<span class="text-span">Today</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="row" style="border-radius: none;border-top:1px solid rgb(29, 29, 29); margin:10px; display: flex;border-bottom:1px solid rgb(29, 29, 29);">
+                    <div class="col-md-6">
+                        <h2 class="all-heading">All Appointements</h4>
+                    </div>
+                    <div class="col-md-6">
+                    <div class="bar-section">
+                        <div style="display: flex;">
+                            <h4 style="margin: 18px;">Filtter</h4>
+                            <select style="height:3rem; margin-top: 12px;" class="form-select" aria-label="Default select example">
+                                <option selected>All</option>
+                                <option value="1">Confirmed</option>
+                                <option value="2">Cancelled</option>
+                                <option value="3">Closed</option>
+                              </select>
+                        </div>
+                   
+                      <div class="col-8 calender">
+                        <button class="btn btn-primary" type="button" style="height:3.4rem;"> + New Appointments</button>
+                        <div class="cal-right" style="display:flex; margin-left: 15px; border: 1px solid grey; height:3.4rem;width:7rem;border-radius: 23px;">
+                            <i class="bi bi-grid" style="font-size:24px;"></i>
+                            <i class="bi bi-calendar3" style="font-size:24px; margin-left:10px;"></i>
+                        
+                        </div>
+                    </div>
+                    </div>
+                        
+                      </div>
+                </div>
+                
+                <div class="doctor-information d-flex flex-row justify-content-center">
+                    <div class="row" style="margin: 10px;">
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="card-container" style="border-radius: 5px; padding-left:5px;">
+                                <div style="float: right;">
+                                    <i class="bi bi-exclamation-lg " style="background-color: red; color:#fff; padding-top: 2px;margin-right: 10px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;"></i>
+                                </div>
+                                <div style="border-width: 1px; border-top:0px;border-right:0px;border-left:0px; border-color:grey; border-style:solid;" class="p-4">
+                                    <img src="images/patient11.jpg" alt="" class="card-image">
+                                    <p1 style="font-size:15px; font-weight:bold; color: #003151;" >Peter Thanos (36)</p1>
+                                    <div style="padding-left: 32%; font-size: 160%;">
+                                        <a href=""><i class="bi bi-chat-right-text-fill pr-3"></i></a>
+                                        <a href="" style="border-width: 1px; border-top:0px;border-bottom:0px; border-color:grey; border-style:solid; padding: 4px; padding-top: 0px; padding-bottom: 0px;" ><i class="bi bi-telephone-fill pl-3 pr-3"></i></a>
+                                        <a href="" style=""><i class="bi bi-camera-video-fill pl-3"></i></a>
+                                    </div>
+                                </div>
+                
+                                <div class="p-3">
+                                    <span style="font-size:20px; font-weight:bold;padding-left:3%;">10:30</span>
+                                    <span style="font-size: 10px; float: right; padding-right: 12px;">12/06/2019</span>
+                                    <div>
+                                    <a href="appointment-details.html">View Details</a>
+                                    <a href="#popup1" style="float:right;">Give feedback</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="card-container" style="border-radius: 5px; padding-left:5px;">
+                                <div style="float: right;">
+                                    <i class="bi bi-exclamation-lg " style="background-color: red; color:#fff; padding-top: 2px;margin-right: 10px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;"></i>
+                                </div>
+                                <div style="border-width: 1px; border-top:0px;border-right:0px;border-left:0px; border-color:grey; border-style:solid;" class="p-4">
+                                    <img src="images/patient11.jpg" alt="" class="card-image">
+                                    <p1 style="font-size:15px; font-weight:bold; color: #003151;" >Peter Thanos (36)</p1>
+                                    <div style="padding-left: 32%; font-size: 160%;">
+                                        <a href=""><i class="bi bi-chat-right-text-fill pr-3"></i></a>
+                                        <a href="" style="border-width: 1px; border-top:0px;border-bottom:0px; border-color:grey; border-style:solid; padding: 4px; padding-top: 0px; padding-bottom: 0px;" ><i class="bi bi-telephone-fill pl-3 pr-3"></i></a>
+                                        <a href=""><i class="bi bi-camera-video-fill pl-3"></i></a>
+                                    </div>
+                                </div>
+                
+                                <div class="p-3">
+                                    <span style="font-size:20px; font-weight:bold;padding-left:3%;">10:30</span>
+                                    <span style="font-size: 10px; float: right; padding-right: 12px;">12/06/2019</span>
+                                    <div>
+                                    <a href="appointment-details.html">View Details</a>
+                                    <a href="#popup1" style="float:right;">Give feedback</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="card-container" style="border-radius: 5px; padding-left:5px;">
+                                <div style="float: right;">
+                                    <i class="bi bi-exclamation-lg " style="background-color: red; color:#fff; padding-top: 2px;margin-right: 10px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;"></i>
+                                </div>
+                                <div style="border-width: 1px; border-top:0px;border-right:0px;border-left:0px; border-color:grey; border-style:solid;" class="p-4">
+                                    <img src="images/patient11.jpg" alt="" class="card-image">
+                                    <p1 style="font-size:15px; font-weight:bold; color: #003151;" >Peter Thanos (36)</p1>
+                                    <div style="padding-left: 32%; font-size: 160%;margin-top:-10px;">
+                                        <a href=""><i class="bi bi-check-circle" style="font-size: 30px;margin-left: 10px;"></i></a>
+                                        <a href="" style="padding: 4px; padding-top: 0px; padding-bottom: 0px;" ><i style="color:red;font-size: 30px;margin-left: 10px;" class="bi bi-x-circle-fill"></i></a>
+                                    </div>
+                                </div>
+                
+                                <div class="p-3">
+                                    <span style="font-size:20px; font-weight:bold;padding-left:3%;">10:30</span>
+                                    <span style="font-size: 10px; float: right; padding-right: 12px;">12/06/2019</span>
+                                    <div>
+                                    <a href="appointment-details.html">View Details</a>
+                                    <a href="#popup1" style="float:right;">Give feedback</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card-container" style="border-radius: 5px; padding-left:5px;">
+                        <div style="float: right;">
+                            <i class="bi bi-exclamation-lg " style="background-color: red; color:#fff; padding-top: 2px;margin-right: 10px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;"></i>
+                        </div>
+                        <div style="border-width: 1px; border-top:0px;border-right:0px;border-left:0px; border-color:grey; border-style:solid;" class="p-4">
+                            <img src="images/patient11.jpg" alt="" class="card-image">
+                            <p1 style="font-size:15px; font-weight:bold; color: #003151;" >Peter Thanos (36)</p1>
+                            <div style="padding-left: 32%; font-size: 160%;">
+                                <a href=""><i class="bi bi-chat-right-text-fill pr-3"></i></a>
+                                <a href="" style="border-width: 1px; border-top:0px;border-bottom:0px; border-color:grey; border-style:solid; padding: 4px; padding-top: 0px; padding-bottom: 0px;" ><i class="bi bi-telephone-fill pl-3 pr-3"></i></a>
+                                <a href="" style=""><i class="bi bi-camera-video-fill pl-3"></i></a>
+                            </div>
+                        </div>
+        
+                        <div class="p-3">
+                            <span style="font-size:20px; font-weight:bold;padding-left:3%;">10:30</span>
+                            <span style="font-size: 10px; float: right; padding-right: 12px;">12/06/2019</span>
+                            <div>
+                            <a href="appointment-details.html">View Details</a>
+                            <a href="#popup1" style="float:right;">Give feedback</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+                <div class="doctor-information d-flex flex-row justify-content-center mt-5"></div>
+                <div class="row" style="margin: 10px;">
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card-container" style="border-radius: 5px; padding-left:5px;">
+                            <div style="float: right;">
+                                <i class="bi bi-exclamation-lg " style="background-color: red; color:#fff; padding-top: 2px;margin-right: 10px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;"></i>
+                            </div>
+                            <div style="border-width: 1px; border-top:0px;border-right:0px;border-left:0px; border-color:grey; border-style:solid;" class="p-4">
+                                <img src="images/patient11.jpg" alt="" class="card-image">
+                                <p1 style="font-size:15px; font-weight:bold; color: #003151;" >Peter Thanos (36)</p1>
+                                <div style="padding-left: 32%; font-size: 160%;">
+                                    <a href=""><i class="bi bi-chat-right-text-fill pr-3"></i></a>
+                                    <a href="" style="border-width: 1px; border-top:0px;border-bottom:0px; border-color:grey; border-style:solid; padding: 4px; padding-top: 0px; padding-bottom: 0px;" ><i class="bi bi-telephone-fill pl-3 pr-3"></i></a>
+                                    <a href="" style=""><i class="bi bi-camera-video-fill pl-3"></i></a>
+                                </div>
+                            </div>
+            
+                            <div class="p-3">
+                                <span style="font-size:20px; font-weight:bold;padding-left:3%;">10:30</span>
+                                <span style="font-size: 10px; float: right; padding-right: 12px;">12/06/2019</span>
+                                <div>
+                                <a href="appointment-details.html">View Details</a>
+                                <a href="#popup1" style="float:right;">Give feedback</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card-container" style="border-radius: 5px; padding-left:5px;">
+                            <div style="float: right;">
+                                <i class="bi bi-exclamation-lg " style="background-color: red; color:#fff; padding-top: 2px;margin-right: 10px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;"></i>
+                            </div>
+                            <div style="border-width: 1px; border-top:0px;border-right:0px;border-left:0px; border-color:grey; border-style:solid;" class="p-4">
+                                <img src="images/patient11.jpg" alt="" class="card-image">
+                                <p1 style="font-size:15px; font-weight:bold; color: #003151;" >Peter Thanos (36)</p1>
+                                <div style="padding-left: 32%; font-size: 160%;">
+                                    <a href=""><i class="bi bi-chat-right-text-fill pr-3"></i></a>
+                                    <a href="" style="border-width: 1px; border-top:0px;border-bottom:0px; border-color:grey; border-style:solid; padding: 4px; padding-top: 0px; padding-bottom: 0px;" ><i class="bi bi-telephone-fill pl-3 pr-3"></i></a>
+                                    <a href="" style=""><i class="bi bi-camera-video-fill pl-3"></i></a>
+                                </div>
+                            </div>
+            
+                            <div class="p-3">
+                                <span style="font-size:20px; font-weight:bold;padding-left:3%;">10:30</span>
+                                <span style="font-size: 10px; float: right; padding-right: 12px;">12/06/2019</span>
+                                <div>
+                                <a href="appointment-details.html">View Details</a>
+                                <a href="#popup1" style="float:right;">Give feedback</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card-container" style="border-radius: 5px; padding-left:5px;">
+                            <div style="float: right;">
+                                <i class="bi bi-exclamation-lg " style="background-color: red; color:#fff; padding-top: 2px;margin-right: 10px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;"></i>
+                            </div>
+                            <div style="border-width: 1px; border-top:0px;border-right:0px;border-left:0px; border-color:grey; border-style:solid;" class="p-4">
+                                <img src="images/patient11.jpg" alt="" class="card-image">
+                                <p1 style="font-size:15px; font-weight:bold; color: #003151;" >Peter Thanos (36)</p1>
+                                <div style="padding-left: 32%; font-size: 160%;margin-top:-10px;">
+                                    <a href=""><i class="bi bi-check-circle" style="font-size: 30px;margin-left: 10px;"></i></a>
+                                    <a href="" style="padding: 4px; padding-top: 0px; padding-bottom: 0px;" ><i style="color:red;font-size: 30px;margin-left: 10px;" class="bi bi-x-circle-fill"></i></a>
+                                </div>
+                            </div>
+            
+                            <div class="p-3">
+                                <span style="font-size:20px; font-weight:bold;padding-left:3%;">10:30</span>
+                                <span style="font-size: 10px; float: right; padding-right: 12px;">12/06/2019</span>
+                                <div>
+                                <a href="appointment-details.html">View Details</a>
+                                <a href="#popup1" style="float:right;">Give feedback</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card-container" style="border-radius: 5px; padding-left:5px;">
+                        <div style="float: right;">
+                            <i class="bi bi-exclamation-lg " style="background-color: red; color:#fff; padding-top: 2px;margin-right: 10px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;"></i>
+                        </div>
+                        <div style="border-width: 1px; border-top:0px;border-right:0px;border-left:0px; border-color:grey; border-style:solid;" class="p-4">
+                            <img src="images/patient11.jpg" alt="" class="card-image">
+                            <p1 style="font-size:15px; font-weight:bold; color: #003151;" >Peter Thanos (36)</p1>
+                            <div style="padding-left: 32%; font-size: 160%;">
+                                <a href=""><i class="bi bi-chat-right-text-fill pr-3"></i></a>
+                                <a href="" style="border-width: 1px; border-top:0px;border-bottom:0px; border-color:grey; border-style:solid; padding: 4px; padding-top: 0px; padding-bottom: 0px;" ><i class="bi bi-telephone-fill pl-3 pr-3"></i></a>
+                                <a href="" style=""><i class="bi bi-camera-video-fill pl-3"></i></a>
+                            </div>
+                        </div>
+        
+                        <div class="p-3">
+                            <span style="font-size:20px; font-weight:bold;padding-left:3%;">10:30</span>
+                            <span style="font-size: 10px; float: right; padding-right: 12px;">12/06/2019</span>
+                            <div>
+                            <a href="appointment-details.html">View Details</a>
+                            <a href="#popup1" style="float:right;">Give feedback</a>
+                            
+    <section>
+<!-- <div class="box">
+	<a class="button" href="#popup1">Give feedback</a>
+</div> -->
+
+<div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>Give feedback</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+	
+        <div class="container">
+    <div class="feedback" style="color: rgb(68, 0, 255);" >
+    <div>
+        <div class="lay">
+      <div class>
+        </div>
+        </div>
+       <hr style="width: 100;">    
+    </div>
+    <div><strong>1.How Satisfied afre you with competance of the doctor? </strong></div>
+
+    <div>
+        <div class="radio">. &nbsp;
+        <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br>
+        <strong><radio>1</radio></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <strong><radio>2</radio></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <strong><radio>3</radio></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <strong><radio>4</radio></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <strong><radio>5</radio></strong>
+        </div>
+    </div>
+    
+    
+    <br>
+
+    <div><strong>2.How Satisfied are you with the outcome of the treatment?</strong></div>
+    <div class="radio">
+        <div>
+            <div class="radio">. &nbsp;
+            <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br>
+            <strong><radio>1</radio></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong><radio>2</radio></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong><radio>3</radio></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong><radio>4</radio></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong><radio>5</radio></strong>
+            </div>
+        </div>
+    
+    <br>
+
+    <div><strong>3.Would you refer these doctor to others? </strong></div>
+    <div class="radio">
+        <div>
+            <div class="radio">. &nbsp;
+            <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br>
+            <strong><radio>1</radio></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong><radio>2</radio></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong><radio>3</radio></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong><radio>4</radio></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong><radio>5</radio></strong>
+            </div>
+        </div>
+    
+    <br>
+
+    <div><strong>4.How satisfied a you with the process of booking appointment?</strong></div>
+    <div class="radio">
+        <div>
+            <div class="radio">. &nbsp;
+            <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br>
+            <strong><radio>1</radio></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong><radio>2</radio></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong><radio>3</radio></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong><radio>4</radio></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong><radio>5</radio></strong>
+            </div>
+        </div>
+       
+        <div><strong>Additional Comment</strong></div>
+       
+        <textarea  placeholder="Wonderful Doctor!" ></textarea>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+    
+</body>
+</html>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html> 

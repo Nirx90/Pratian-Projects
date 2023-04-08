@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let N = 4;
+        let mat = [ [ 1, 0, 0, 0 ],
+                    [ 0, 1, 0, 0 ],
+                    [ 0, 0, 1, 0 ],
+                    [ 0, 0, 0, 1 ] ];
+        
+        if (isIdentity(mat, N))
+            document.write("Yes ");
+        else
+            document.write("No ");
+
+       
+        let MAX = 100;
+        
+        function isIdentity(mat, N)
+        {
+            for(let row = 0; row < N; row++)
+            {
+                for(let col = 0; col < N; col++)
+                {
+                    if (row == col && mat[row][col] != 1)
+                        return false;
+                    else if (row != col && mat[row][col] != 0)
+                        return false;
+                }
+            }
+            return true;
+        }
+        
+        
+       
+            
+       
+        
+        </script>
+        
+</body>
+</html>

@@ -1,0 +1,246 @@
+@import url("doctors.css");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: montserrat;
+  background-color:#fff;
+}
+
+nav {
+  height: 36px;
+  width: 100%;
+  background: rgb(24, 54, 92);
+}
+
+nav ul {
+  float: right;
+  margin-right: 40px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 8px;
+  line-height: 40px;
+}
+
+nav a {
+  color: #fff;
+  font-size: 15px;
+
+}
+
+
+
+.doctor {
+  background-color: #fff;
+  font-family: arial;
+  width: 1300px;
+  margin-top: 3px;
+  height: 305px;
+  margin-right: -5px;
+
+}
+
+.fl-left {
+  float: left
+}
+
+.fl-right {
+  float: right;
+  margin-left: 750px;
+  margin-top: -220px;
+  color: gray;
+  font-family: arial,verdana,Helvetica;
+  
+}
+
+
+
+.row {
+  overflow: hidden;
+}
+
+.card {
+  display: table-row;
+  width: 500px;
+  margin-left: 15px;
+  background-color: #fff;
+  color: #989898;
+  margin-bottom: 10px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  border-radius: 4px;
+  position: relative
+}
+
+.card+.card {
+  margin-left: 2%
+}
+
+.sidedate {
+  display: table-cell;
+  width: 50%;
+  position: relative;
+  text-align: center;
+  margin-left: 50px;
+  border-right: 5px dashed #dadde6;
+  background-color:#fff;
+}
+
+
+
+.card-cont {
+
+  display: table-cell;
+  width: 50%;
+  font-size: 85%;
+  padding: 32px 41px 30px 160px;
+
+
+}
+
+.btn {
+  background-color: rgb(24, 54, 92);
+  font-weight: 20px;
+  height: 40px;
+  width: 150px;
+  color: #fff;
+  
+  
+  border-radius: 5px;
+}
+
+.n2 {
+  height: 36px;
+  width: 100%;
+  background: rgb(253, 248, 248);
+  
+
+}
+
+
+.n2 a {
+  color:black;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 10px;
+}
+.v{
+  margin-left: 654px;
+  height:243px ;
+  margin-top: -90px;
+  border-left: 3px dotted gray;
+}
+.About{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  margin-left: 50px;
+font-size: 20px ;
+}
+.btn-left{
+margin-left: 1200px;
+height: 35px;
+width:100px ;
+color: #fff;
+background-color:  rgb(24, 54, 92);
+border-radius: 20px;
+border: none;
+}
+.v1{
+margin-left: 10px;
+height: 161px;
+margin-top: 58px;
+border-left: 3px dotted gray;
+
+}
+.a{
+margin-left: 90px;
+margin-top: 54px;
+}
+
+
+.sdfsd{
+  display: flex;
+  margin-left: 70px;
+  color: black;
+  padding-top: 70px;
+
+}
+.tit{
+  margin-left:900px;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  background-color: navy;
+  color: white;
+}
+.titw{
+ text-align: right;
+ height: 50px;
+ background-color: navy;
+ color: white;
+ padding-top: 10px ;
+ margin-left: 0px;
+ 
+}
+.titwa{
+  height: 160px;
+  width: 140px;
+  border-radius: 100%;
+}
+
+.main{
+  display:  flex;
+  width:100% ;
+  height: 190px;
+  border: 1px solid whitesmoke;
+ 
+ 
+}
+.main3{
+  margin-right: 150px;
+  width: 40%;
+  padding-bottom: 0px;
+  
+}
+.main2{
+  margin-left: 300px;
+  width: 30%;
+  border-left: 3px dotted grey;
+}
+.main1{
+  width: 30%;
+}
+.ath{
+  justify-content: space-between;
+  
+}
+.thane{
+  display: flex;
+  border: 1px solid whitesmoke;
+  margin-left: 30px;
+ 
+}
+
+.mum{
+  margin-left: 70px;
+}
+
+.qwe{
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -6px;
+  color: red;
+
+}
+.fa-dot {
+  position: absolute;
+  margin-right: 10px;
+  color: grey;
+}

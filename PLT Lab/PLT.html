@@ -1,0 +1,282 @@
+<html>
+    <head> 
+        <title> Plt labs</title>
+        <script src="./PLT.js"></script>
+
+    </head>
+
+    
+       
+        
+    <body>
+        <!-- 1 Simple Interest -->
+      <div >
+        <div  style="width: 345px; padding: 8px;height: 140px;background-color: lightgray;position: absolute;" >
+            <label>Q1) Calculate Simple Interest</label>
+            <input type="text"  id="principal" placeholder="Enter principal"/> <br>
+            <input type="text"  id="time" placeholder="Enter time period in months "/> <br>
+             <input type="text"  id="interest" placeholder="Enter rate of interest(%)"/> <br>
+          
+               <button onclick = "simple_interest()" >Submit</button> <br>
+           
+            <div id="intamount"> </div>
+             <div id="tia"></div>
+        </div>
+        
+        <!-- 2 Even Odd -->
+        <div id = "form" style="width: 345px;padding: 8px;height: 80px;background-color: lightgray;position: absolute;margin-left: 25%;">
+         <label>Q-2) WAP to chek number is even or odd</label>  
+        <br>
+         <input type="text" id="zero"  placeholder="Enter a Number"/>  <br>
+          <button onclick = "even_odd()" >Submit</button> <br>
+          <input type="text" id="one"  placeholder="Answer will be shown here"/>
+          <label id="nirav"></label>
+      </div>
+    
+      
+    <!--  3 Marks-->
+
+     <div  style="width: 345px; padding: 8px;height: 250px;background-color: lightgray;position: absolute;margin-left: 50%;" >
+       <label>Q-3) Marks Question</label><br><br>
+        <label>Enter Physics Marks:</label> <input type="text"  id="first" placeholder="Enter Physics Marks here"/>
+         <br>
+        <label>Enter Maths Marks:</label> <input type="text"  id="second" placeholder="Enter Maths Marks here "/> 
+        <br>
+        <label>Enter Chemistry Marks:</label> <input type="text" id="third" placeholder="Enter Chemistry Marks here"/>
+        <br> 
+       <button onclick = "Marks()" >Submit</button> <br>
+       <div id="total"> </div>
+       <div id="ave"> </div>
+       <div id="class"> </div>
+      
+    </div> 
+    
+   
+    <!--  4  4,9,16,26-->
+
+     <div  style="width: 345px; padding: 8px;height: 80px;background-color: lightgray;position: absolute;margin-left: 75%;" >
+      <label>Q-4) Series</label>
+      <br>
+      <label>Enter Number</label>
+
+      <input type="text"  id="nano" placeholder="Enter num"/> <br>
+      <button onclick = "series()" >Submit</button> <br>
+      <p id="shakshi"></p>
+
+        </div>
+        
+    <!-- 5 Tax -->
+    
+        <div  style="width: 345px; padding: 8px;height: 250px;background-color: lightgray;position: absolute;margin-left: 75%;margin-top: 8%;" >
+          <label>Q-5) Tax Calculator</label>
+          <br>
+          <label>Name:</label> <input type="text" name="a" id="first" placeholder="Enter name here"/> 
+          <br>
+            <label >Employe ID:</label> <input type="text" name="b" id="second" placeholder="Enter Id here "/> 
+          <br>
+           <label>Basic Salary:</label> <input type="text"  id="three" placeholder="Enter Basic Salary here"/> 
+           <br>
+           <label>Special Allowance:</label> <input type="text"  id="fourth" placeholder="Enter Special Allowance here"/>
+           <br> 
+             <label>Percentage of Bonus:</label> <input type="text"  id="fifth" placeholder="Bonus here"/> 
+            <br>
+             <label>Monthly Tax Saving:</label> <input type="text" id="sixth" placeholder="Enter Tax Saving here"/> 
+             <br>
+            
+            <button onclick = "tax()" >Submit</button> <br>
+        
+      <div id="GS"> </div>
+      <div id="AS"></div>
+      <div id="NS"></div>
+        </div>
+      <br>
+        <!--  Q6)  1,3,7,13-->
+
+     <div  style="width: 345px; padding: 8px;height: 80px;background-color: lightgray;" >
+      <label>Q-6) Series</label>
+      <br>
+      <label>Enter Number</label>
+
+      <input type="text"  id="nano" placeholder="Enter num"/> <br>
+      <button onclick = "series6()" >Submit</button> <br>
+
+        </div>
+        <br>
+
+        <!--  Q-7) multi of 7-->
+
+     <div  style="width: 345px; padding: 8px;height: 80px;background-color: lightgray;" >
+      <label>Q-7) Series</label>
+      <br>
+      <label>Enter Number</label>
+
+      <input type="text"  id="multi" placeholder="Enter num"/> <br>
+      <button onclick = "multi()" >Submit</button> <br>
+
+        </div>
+        <br>
+
+
+        <!--  Q8) fibonaci-->
+
+     <div  style="width: 345px; padding: 8px;height: 80px;background-color: lightgray;" >
+      <label>Q-8) Fibonaci Series</label>
+      <br>
+      <label>Enter Number</label>
+
+      <input type="text"  id="fibo" placeholder="Enter num"/> <br>
+      <button onclick = "fibo()" >Submit</button> <br>
+
+        </div>
+        <br>
+       <!--  Q9) fibonaci-->
+
+        <div  style="width: 345px; padding: 8px;height: 80px;background-color: lightgray;" >
+      <label>Q-9) Fibonaci Series</label>
+       <br>
+       <label>Enter Number</label>
+
+       <input type="text"  id="fibo" placeholder="Enter num"/> <br>
+        <button onclick = "fibo2()" >Submit</button> <br>
+
+         </div>
+         <br>
+         <!--  Q10) 1,4,9,25,36-->
+  
+          <div  style="width: 345px; padding: 8px;height: 80px;background-color: lightgray;" >
+        <label>Q-10) 1,4,9,25,36</label>
+         <br>
+         <label>Enter Number</label>
+  
+         <input type="text"  id="fibo" placeholder="Enter num"/> <br>
+          <button onclick = "four()" >Submit</button> <br>
+  
+           </div>
+
+           <br>
+           <!--  Q11) 1,4,9,25,36-->
+    
+            <div  style="width: 345px; padding: 8px;height: 80px;background-color: lightgray;" >
+          <label>Q-11) Star 1,4,9,25,36</label>
+           <br>
+           <label>Enter Number</label>
+    
+           <input type="text"  id="fibo" placeholder="Enter num"/> <br>
+            <button onclick = "star()" >Submit</button> <br>
+    
+             </div>
+
+             <br>
+             <!--  Q12) 1,2,4,6,7,10,10,14,13-->
+      
+              <div  style="width: 345px; padding: 8px;height: 80px;background-color: lightgray;" >
+            <label>Q-12) 1,2,4,6,7,10,10,14,13</label>
+             <br>
+             <label>Enter Number</label>
+      
+             <input type="text"  id="fibo" placeholder="Enter num"/> <br>
+              <button onclick = "twoseries()" >Submit</button> <br>
+      
+               </div>
+
+               <br>
+               <!--  Q13) left star-->
+        
+                <div  style="width: 345px; padding: 8px;height: 80px;background-color: lightgray;" >
+              <label>Q-13) left star</label>
+               <br>
+               <label>Enter Number</label>
+        
+               <input type="text"  id="fibo" placeholder="Enter num"/> <br>
+                <button onclick = "leftstar()" >Submit</button> <br>
+        
+                 </div>
+                 
+                 <br>
+                 <!--  Q14) 800 802 804 806-->
+          
+                  <div  style="width: 345px; padding: 8px;height: 120px;background-color: lightgray;" >
+                <label>Q-14) 800 802 804 </label>
+                 <br>
+                 <label>Enter Number</label>
+          
+                 <input type="text"  id="love" placeholder="Enter num"/> <br>
+                  <button onclick = "love()" >Submit</button> <br>
+          <div id="sum"></div>
+          <div id="gogo"></div>
+                   </div>           
+                   <br>
+                   <!--  Q15) left star-->
+            
+                    <div  style="width: 345px; padding: 8px;height: 100px;background-color: lightgray;" >
+                  <label>Q-15) power of number</label>
+                   <br>
+                   <label>Enter Number</label>
+            
+                   <input type="text"  id="eni" placeholder="Enter num"/> <br>
+                   <label>Enter Power</label>
+                   <input type="text"  id="power" placeholder="Enter power"/> <br>
+
+                    <button onclick = "power()" >Submit</button> <br>
+                    <div id="ans"></div>
+            
+                     </div>
+
+                     <br>
+                     <!--  Q17) 1,2,6,15,-->
+              
+                      <div  style="width: 345px; padding: 8px;height: 80px;background-color: lightgray;" >
+                    <label>Q-17) 1,2,6,15</label>
+                     <br>
+                     <label>Enter Number</label>
+              
+                     <input type="text"  id="virat" placeholder="Enter num"/> <br>
+                      <button onclick = "Q17()" >Submit</button> <br>
+              
+                       </div>  
+           
+                       <br>
+                       <!-- 18 Tax -->
+                       
+              <div  style="width: 345px; padding: 8px;height: 250px;background-color: lightgray;" >
+               <label>Q-18) Customer Items</label>
+               <br>
+              <label>Item Code:</label> <input type="text"  id="item" placeholder="Enter Item Code here"/> 
+              <br>
+               <label >Discription:</label> <input type="text"  id="disc" placeholder="Enter Discription here "/> 
+              <br>
+               <label>Quantity:</label> <input type="text"  id="qty" placeholder="Enter Quantity here"/> 
+                <br>
+              <label>Price:</label> <input type="text"  id="price" placeholder="Price"/>
+               <br> 
+               
+                  
+                
+                               
+                     <button  onclick = "customer()" >Submit</button> <br>
+                
+                         <div id="pr"> </div>
+                         <div id="manje"></div>
+                         <div id="tinu"></div>
+                         <div id="dube"></div>
+                         
+                           </div>
+                           
+                           <!-- Q 20 Matrix -->
+                           <br>
+
+                           <div  style="width: 345px; padding: 8px;height: 80px;background-color: lightgray;" >
+                            <label>Q-20) Matrix</label>
+                             <br>
+                             <label>Enter Number</label>
+                      
+                             <input type="text"  id="virat" placeholder="Enter num"/> <br>
+                              <button onclick = "matrix()" >Submit</button> <br>
+                      
+                               </div>                 
+                       
+    </div>                   
+    </body>
+      
+
+</html>
